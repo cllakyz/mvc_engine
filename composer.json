@@ -1,0 +1,14 @@
+{
+  "require": {
+    "windwalker/edge": "~3.0",
+    "illuminate/database": "^5.7",
+    "illuminate/events": "^5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Controllers\\": "app/controllers/",
+      "Models\\": "app/models/",
+      "Illuminate\\Database\\": ""
+    }
+  }
+}
