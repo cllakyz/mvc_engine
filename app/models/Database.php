@@ -12,11 +12,11 @@ class Database
         $capsule->addConnection([
             'driver'    => 'mysql',
             'host'      => 'localhost',
-            'database'  => 'database',
+            'database'  => 'mvc_engine',
             'username'  => 'root',
-            'password'  => 'password',
+            'password'  => 'mysql',
             'charset'   => 'utf8',
-            'collation' => 'utf8_unicode_ci',
+            'collation' => 'utf8_general_ci',
             'prefix'    => '',
         ]);
 
