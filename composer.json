@@ -6,6 +6,7 @@
   },
   "autoload": {
     "psr-4": {
+      "Router\\": "src/Router/",
       "Controllers\\": "app/controllers/",
       "Models\\": "app/models/",
       "Illuminate\\Database\\": ""

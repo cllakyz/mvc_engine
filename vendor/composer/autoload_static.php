@@ -22,6 +22,10 @@ class ComposerStaticInitb2e988349d0df9f4ca6167f98daf2248
             'Symfony\\Contracts\\' => 18,
             'Symfony\\Component\\Translation\\' => 30,
         ),
+        'R' => 
+        array (
+            'Router\\' => 7,
+        ),
         'P' => 
         array (
             'Psr\\SimpleCache\\' => 16,
@@ -65,6 +69,10 @@ class ComposerStaticInitb2e988349d0df9f4ca6167f98daf2248
         'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
+        ),
+        'Router\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src/Router',
         ),
         'Psr\\SimpleCache\\' => 
         array (

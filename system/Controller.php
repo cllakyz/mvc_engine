@@ -1,4 +1,5 @@
 <?php
+namespace Application;
 use Windwalker\Edge\Edge;
 use Windwalker\Edge\Loader\EdgeFileLoader;
 use Windwalker\Edge\Loader\EdgeStringLoader;

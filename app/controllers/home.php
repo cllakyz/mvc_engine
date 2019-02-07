@@ -1,9 +1,10 @@
 <?php
+namespace Controllers;
 use Models\User;
-class home extends Controller
+class home extends \Application\Controller
 {
     public function index()
     {
-        $this->view('site/header', array('users' => User::all()));
+        $this->view('home');
     }
 }
