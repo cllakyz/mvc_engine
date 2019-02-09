@@ -18,7 +18,6 @@ return array(
     'PhpParser\\' => array($vendorDir . '/nikic/php-parser/lib/PhpParser'),
     'PhpDocReader\\' => array($vendorDir . '/php-di/phpdoc-reader/src/PhpDocReader'),
     'Pecee\\' => array($vendorDir . '/pecee/simple-router/src/Pecee'),
-    'Models\\' => array($baseDir . '/app/models'),
     'Invoker\\' => array($vendorDir . '/php-di/invoker/src'),
     'Illuminate\\Support\\' => array($vendorDir . '/illuminate/support'),
     'Illuminate\\Events\\' => array($vendorDir . '/illuminate/events'),
@@ -27,6 +26,6 @@ return array(
     'Illuminate\\Container\\' => array($vendorDir . '/illuminate/container'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib/Doctrine/Common/Inflector'),
     'DI\\' => array($vendorDir . '/php-di/php-di/src'),
-    'Controllers\\' => array($baseDir . '/app/controllers'),
+    'Application\\' => array($baseDir . '/app'),
     '' => array($vendorDir . '/nesbot/carbon/src'),
 );

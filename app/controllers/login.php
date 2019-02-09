@@ -1,7 +1,6 @@
 <?php
-namespace Controllers;
-use Models\User;
-use Pecee\Http\Request;
+namespace Application\Controllers;
+use Application\Models\User;
 class login extends \Application\Controller
 {
     public function index()

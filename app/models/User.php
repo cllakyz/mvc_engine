@@ -1,5 +1,5 @@
 <?php
-namespace Models;
+namespace Application\Models;
 use Illuminate\Database\Eloquent\Model;
 class User extends Model
 {
@@ -21,5 +21,18 @@ class User extends Model
             }
         }
         return $isLogged;
+    }
+
+    public static function userInfo($key=NULL, $id=NULL)
+    {
+        if(is_null($id)){
+            $id = $_SESSION['loginUserId'];
+        }
+        $sorgu = User::where('id', '=', $id)->first();
+        if(!is_null($key)){
+            return $sorgu[$key];
+        } else{
+            return $sorgu;
+        }
     }
 }

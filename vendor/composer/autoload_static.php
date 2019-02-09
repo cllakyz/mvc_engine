@@ -35,10 +35,6 @@ class ComposerStaticInitb2e988349d0df9f4ca6167f98daf2248
             'PhpDocReader\\' => 13,
             'Pecee\\' => 6,
         ),
-        'M' => 
-        array (
-            'Models\\' => 7,
-        ),
         'I' => 
         array (
             'Invoker\\' => 8,
@@ -53,9 +49,9 @@ class ComposerStaticInitb2e988349d0df9f4ca6167f98daf2248
             'Doctrine\\Common\\Inflector\\' => 26,
             'DI\\' => 3,
         ),
-        'C' => 
+        'A' => 
         array (
-            'Controllers\\' => 12,
+            'Application\\' => 12,
         ),
     );
 
@@ -108,10 +104,6 @@ class ComposerStaticInitb2e988349d0df9f4ca6167f98daf2248
         array (
             0 => __DIR__ . '/..' . '/pecee/simple-router/src/Pecee',
         ),
-        'Models\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/app/models',
-        ),
         'Invoker\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-di/invoker/src',
@@ -145,9 +137,9 @@ class ComposerStaticInitb2e988349d0df9f4ca6167f98daf2248
         array (
             0 => __DIR__ . '/..' . '/php-di/php-di/src',
         ),
-        'Controllers\\' => 
+        'Application\\' => 
         array (
-            0 => __DIR__ . '/../..' . '/app/controllers',
+            0 => __DIR__ . '/../..' . '/app',
         ),
     );
 

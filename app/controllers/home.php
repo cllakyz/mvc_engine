@@ -1,6 +1,7 @@
 <?php
-namespace Controllers;
-use Models\User;
+namespace Application\Controllers;
+use Application\Models\User;
+
 class home extends \Application\Controller
 {
     public function index()

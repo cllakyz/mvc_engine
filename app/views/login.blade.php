@@ -33,11 +33,11 @@
         <div class="login-content">
             <div class="login-logo">
                 <a href="index.html">
-                    <img class="align-content" src="{{ url('login.post') }}images/logo.png" alt="">
+                    <img class="align-content" src="{{ PUBLIC_PATH }}images/logo.png" alt="">
                 </a>
             </div>
             <div class="login-form">
-                <form action="{{ SITE_URL."login" }}" method="post">
+                <form action="{{ url('login.post') }}" method="post">
                     <div class="form-group">
                         <label>E-Posta Adresi</label>
                         <input type="email" class="form-control" name="email" placeholder="E-posta Adresiniz">

@@ -1,5 +1,5 @@
 <?php
-namespace Models;
+namespace Application\Models;
 use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;
