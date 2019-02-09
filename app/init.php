@@ -7,4 +7,4 @@ require_once 'vendor/autoload.php';
 use Application\Models\Database;
 new Database();
 require_once 'config/RouterHelpers.php';
-require_once 'config/Router.php';
+require_once 'Router.php';
